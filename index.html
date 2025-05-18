@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>AndyStore</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AndyStore</h1>
+    <h2 class="subtitulo">Productos Disponibles</h2>
+    <div id="productos-container" class="productos-container"></div>
+    <div class="botones-carrito">
+      <button id="btn-ver-carrito">Ver Carrito (<span id="cantidad-carrito">0</span>)</button>
+      <button id="btn-vaciar" class="vaciar">Vaciar Carrito</button>
+      <button id="btn-comprar" class="comprar">Realizar Compra</button>
+    </div>
+  </div>
+
+  <div id="modal-carrito">
+    <div class="modal-content">
+      <h3>Carrito de Compras</h3>
+      <div id="contenido-carrito"></div>
+      <button id="btn-cerrar-modal">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
